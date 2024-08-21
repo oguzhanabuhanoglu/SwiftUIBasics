@@ -29,6 +29,7 @@ struct StacksBootcamp: View {
                     .fill(Color.green)
                     .frame(width: 150, height: 80)
                 
+                
                 HStack(alignment: .bottom, spacing: 0) {
                     Rectangle()
                         .fill(Color.blue)
