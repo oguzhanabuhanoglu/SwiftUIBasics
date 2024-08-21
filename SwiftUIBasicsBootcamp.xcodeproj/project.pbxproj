@@ -19,6 +19,7 @@
 		BFA775AE2C760BBA00C063AF /* ImagesBootcamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFA775AD2C760BBA00C063AF /* ImagesBootcamp.swift */; };
 		BFA775B02C761C8C00C063AF /* FrameBootcamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFA775AF2C761C8C00C063AF /* FrameBootcamp.swift */; };
 		BFA775B22C7620C300C063AF /* Background&OverlayBootcamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFA775B12C7620C300C063AF /* Background&OverlayBootcamp.swift */; };
+		BFA775B42C76A42200C063AF /* StacksBootcamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFA775B32C76A42200C063AF /* StacksBootcamp.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -35,6 +36,7 @@
 		BFA775AD2C760BBA00C063AF /* ImagesBootcamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImagesBootcamp.swift; sourceTree = "<group>"; };
 		BFA775AF2C761C8C00C063AF /* FrameBootcamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FrameBootcamp.swift; sourceTree = "<group>"; };
 		BFA775B12C7620C300C063AF /* Background&OverlayBootcamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Background&OverlayBootcamp.swift"; sourceTree = "<group>"; };
+		BFA775B32C76A42200C063AF /* StacksBootcamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StacksBootcamp.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -77,6 +79,7 @@
 				BFA775AD2C760BBA00C063AF /* ImagesBootcamp.swift */,
 				BFA775AF2C761C8C00C063AF /* FrameBootcamp.swift */,
 				BFA775B12C7620C300C063AF /* Background&OverlayBootcamp.swift */,
+				BFA775B32C76A42200C063AF /* StacksBootcamp.swift */,
 				BF81DA2E2C6FB60A00F4AD59 /* Assets.xcassets */,
 				BF81DA302C6FB60A00F4AD59 /* Preview Content */,
 			);
@@ -169,6 +172,7 @@
 				BF81DA2D2C6FB60900F4AD59 /* ContentView.swift in Sources */,
 				BF81DA392C6FB62400F4AD59 /* TextBootcamp.swift in Sources */,
 				BF81DA2B2C6FB60900F4AD59 /* SwiftUIBasicsBootcampApp.swift in Sources */,
+				BFA775B42C76A42200C063AF /* StacksBootcamp.swift in Sources */,
 				BFA775B22C7620C300C063AF /* Background&OverlayBootcamp.swift in Sources */,
 				BFA775AC2C76088100C063AF /* IconsBootcamp.swift in Sources */,
 			);
