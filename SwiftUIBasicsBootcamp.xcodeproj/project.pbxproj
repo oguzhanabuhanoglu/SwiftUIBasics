@@ -24,6 +24,7 @@
 		BFA775B82C76ABFA00C063AF /* SpacerBootcamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFA775B72C76ABFA00C063AF /* SpacerBootcamp.swift */; };
 		BFA775BA2C76B71200C063AF /* InitBootcamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFA775B92C76B71200C063AF /* InitBootcamp.swift */; };
 		BFA775BC2C77515E00C063AF /* ForEachBootcamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFA775BB2C77515E00C063AF /* ForEachBootcamp.swift */; };
+		BFA775BE2C77620500C063AF /* ScrollViewBootcamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFA775BD2C77620500C063AF /* ScrollViewBootcamp.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -45,6 +46,7 @@
 		BFA775B72C76ABFA00C063AF /* SpacerBootcamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpacerBootcamp.swift; sourceTree = "<group>"; };
 		BFA775B92C76B71200C063AF /* InitBootcamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InitBootcamp.swift; sourceTree = "<group>"; };
 		BFA775BB2C77515E00C063AF /* ForEachBootcamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ForEachBootcamp.swift; sourceTree = "<group>"; };
+		BFA775BD2C77620500C063AF /* ScrollViewBootcamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScrollViewBootcamp.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -92,6 +94,7 @@
 				BFA775B72C76ABFA00C063AF /* SpacerBootcamp.swift */,
 				BFA775B92C76B71200C063AF /* InitBootcamp.swift */,
 				BFA775BB2C77515E00C063AF /* ForEachBootcamp.swift */,
+				BFA775BD2C77620500C063AF /* ScrollViewBootcamp.swift */,
 				BF81DA2E2C6FB60A00F4AD59 /* Assets.xcassets */,
 				BF81DA302C6FB60A00F4AD59 /* Preview Content */,
 			);
@@ -181,6 +184,7 @@
 				BF65ED842C7543CB00AA70FD /* ColorsBootcamp.swift in Sources */,
 				BFA775B02C761C8C00C063AF /* FrameBootcamp.swift in Sources */,
 				BFA775AE2C760BBA00C063AF /* ImagesBootcamp.swift in Sources */,
+				BFA775BE2C77620500C063AF /* ScrollViewBootcamp.swift in Sources */,
 				BFA775B62C76A68F00C063AF /* PaddingBootcamp.swift in Sources */,
 				BF81DA3B2C6FBFF100F4AD59 /* ShapesBootcamp.swift in Sources */,
 				BF81DA2D2C6FB60900F4AD59 /* ContentView.swift in Sources */,
