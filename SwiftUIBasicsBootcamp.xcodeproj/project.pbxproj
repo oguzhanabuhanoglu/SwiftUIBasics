@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		BF3076542C7A09F600D87658 /* LazyVGridBootcamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF3076532C7A09F600D87658 /* LazyVGridBootcamp.swift */; };
 		BF3076562C7A203800D87658 /* SafeAreaBootcamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF3076552C7A203800D87658 /* SafeAreaBootcamp.swift */; };
+		BF3076582C7A2E8800D87658 /* ButtonBootcamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF3076572C7A2E8800D87658 /* ButtonBootcamp.swift */; };
 		BF65ED842C7543CB00AA70FD /* ColorsBootcamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF65ED832C7543CB00AA70FD /* ColorsBootcamp.swift */; };
 		BF81DA2B2C6FB60900F4AD59 /* SwiftUIBasicsBootcampApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF81DA2A2C6FB60900F4AD59 /* SwiftUIBasicsBootcampApp.swift */; };
 		BF81DA2D2C6FB60900F4AD59 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF81DA2C2C6FB60900F4AD59 /* ContentView.swift */; };
@@ -32,6 +33,7 @@
 /* Begin PBXFileReference section */
 		BF3076532C7A09F600D87658 /* LazyVGridBootcamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LazyVGridBootcamp.swift; sourceTree = "<group>"; };
 		BF3076552C7A203800D87658 /* SafeAreaBootcamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SafeAreaBootcamp.swift; sourceTree = "<group>"; };
+		BF3076572C7A2E8800D87658 /* ButtonBootcamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ButtonBootcamp.swift; sourceTree = "<group>"; };
 		BF65ED832C7543CB00AA70FD /* ColorsBootcamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColorsBootcamp.swift; sourceTree = "<group>"; };
 		BF81DA272C6FB60900F4AD59 /* SwiftUIBasicsBootcamp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SwiftUIBasicsBootcamp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		BF81DA2A2C6FB60900F4AD59 /* SwiftUIBasicsBootcampApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUIBasicsBootcampApp.swift; sourceTree = "<group>"; };
@@ -101,6 +103,7 @@
 				BFA775BD2C77620500C063AF /* ScrollViewBootcamp.swift */,
 				BF3076532C7A09F600D87658 /* LazyVGridBootcamp.swift */,
 				BF3076552C7A203800D87658 /* SafeAreaBootcamp.swift */,
+				BF3076572C7A2E8800D87658 /* ButtonBootcamp.swift */,
 				BF81DA2E2C6FB60A00F4AD59 /* Assets.xcassets */,
 				BF81DA302C6FB60A00F4AD59 /* Preview Content */,
 			);
@@ -185,6 +188,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BF3076582C7A2E8800D87658 /* ButtonBootcamp.swift in Sources */,
 				BFA775BA2C76B71200C063AF /* InitBootcamp.swift in Sources */,
 				BFA775AA2C755EFA00C063AF /* GradientsBootcamp.swift in Sources */,
 				BF65ED842C7543CB00AA70FD /* ColorsBootcamp.swift in Sources */,
