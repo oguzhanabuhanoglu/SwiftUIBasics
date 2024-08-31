@@ -11,8 +11,14 @@ struct AlertBootcamp: View {
     
     @State var backgroundColor: Color = .yellow
     @State var showAlert: Bool = false
-    @State var alertTitle: String = ""
-    @State var alertMessage: String = ""
+//    @State var alertTitle: String = ""
+//    @State var alertMessage: String = ""
+    @State var alertType: MyAlerts? = nil
+    
+    enum MyAlerts {
+        case error
+        case success
+    }
     
     var body: some View {
         ZStack {
@@ -20,8 +26,9 @@ struct AlertBootcamp: View {
             
             VStack {
                 Button("BUTTON 1") {
-                    alertTitle = "Button 1 clicked"
-                    alertMessage = "message 1"
+                    alertType = .error
+//                    alertTitle = "Button 1 clicked"
+//                    alertMessage = "message 1"
                     showAlert.toggle()
                 }
                 .padding()
@@ -29,8 +36,9 @@ struct AlertBootcamp: View {
                 .padding()
                 
                 Button("BUTTON 2") {
-                    alertTitle = "Button 2 clicked"
-                    alertMessage = "message 2"
+                    alertType = .success
+//                    alertTitle = "Button 2 clicked"
+//                    alertMessage = "message 2"
                     showAlert.toggle()
                 }
                 .padding()
@@ -44,9 +52,17 @@ struct AlertBootcamp: View {
     }
     
     func createAlert() -> Alert {
-        return Alert(title: Text(alertTitle),
-                     message: Text(alertMessage),
-                     dismissButton: .default(Text("OK")))
+        switch alertType {
+        case .error:
+            return Alert(title: Text("That was an error"), message: Text("skip the error"), dismissButton: .default(Text("OK")))
+        case .success:
+            return Alert(title: Text("Succesfully passed"), message: Text("keep going"), dismissButton: .default(Text("OK")))
+        case nil:
+            return Alert(title: Text("sjsjsj"))
+        }
+//        return Alert(title: Text(alertTitle),
+//                     message: Text(alertMessage),
+//                     dismissButton: .default(Text("OK")))
     }
 }
 
