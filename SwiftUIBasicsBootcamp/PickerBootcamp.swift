@@ -15,29 +15,37 @@ struct PickerBootcamp: View {
         "Most Recent", "Most Popular", "Most Liked"
     ]
     
+    
     var body: some View {
         
-
-        VStack {
-            Picker(selection: $selection) {
-                ForEach(filterOptions, id: \.self) { option in
-                    Text(option).tag("\(option)")
-                }
-            } label: {
-                
-                // Burada bir sıkıntı oldu özelleştiremedim. Düzelttiğimde commitleyeceğim.
-                HStack {
-                    Text("Filter:")
-                    Text(selection)
-                }
-                .font(.title)
-                .foregroundStyle(Color.red)
-                .background(Color.red)
+        Picker(selection: $selection) {
+            ForEach(filterOptions.indices) { index in
+                Text(filterOptions[index]).tag(filterOptions[index])
             }
-            
+        } label: {
+            //
         }
+        .pickerStyle(SegmentedPickerStyle())
+
         
-        
+//        VStack {
+//            Picker(selection: $selection) {
+//                ForEach(filterOptions, id: \.self) { option in
+//                    Text(option).tag("\(option)")
+//                }
+//            } label: {
+//
+//                // Burada bir sıkıntı oldu özelleştiremedim. Düzelttiğimde commitleyeceğim.
+//                HStack {
+//                    Text("Filter:")
+//                    Text(selection)
+//                }
+//                .font(.title)
+//                .foregroundStyle(Color.red)
+//                .background(Color.red)
+//            }
+//
+//        }
         
 //        VStack {
 //            HStack {
