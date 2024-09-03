@@ -48,6 +48,7 @@
 		BFA775BC2C77515E00C063AF /* ForEachBootcamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFA775BB2C77515E00C063AF /* ForEachBootcamp.swift */; };
 		BFA775BE2C77620500C063AF /* ScrollViewBootcamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFA775BD2C77620500C063AF /* ScrollViewBootcamp.swift */; };
 		BFF1DA762C872F47003A59D1 /* PickerBootcamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFF1DA752C872F47003A59D1 /* PickerBootcamp.swift */; };
+		BFF1DA782C873BEA003A59D1 /* ColorPickerBootcamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFF1DA772C873BEA003A59D1 /* ColorPickerBootcamp.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -93,6 +94,7 @@
 		BFA775BB2C77515E00C063AF /* ForEachBootcamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ForEachBootcamp.swift; sourceTree = "<group>"; };
 		BFA775BD2C77620500C063AF /* ScrollViewBootcamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScrollViewBootcamp.swift; sourceTree = "<group>"; };
 		BFF1DA752C872F47003A59D1 /* PickerBootcamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PickerBootcamp.swift; sourceTree = "<group>"; };
+		BFF1DA772C873BEA003A59D1 /* ColorPickerBootcamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColorPickerBootcamp.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -164,6 +166,7 @@
 				BF30767D2C84978F00D87658 /* TextEditorBootcamp.swift */,
 				BF30767F2C849E6300D87658 /* ToggleBootcamp.swift */,
 				BFF1DA752C872F47003A59D1 /* PickerBootcamp.swift */,
+				BFF1DA772C873BEA003A59D1 /* ColorPickerBootcamp.swift */,
 				BF81DA2E2C6FB60A00F4AD59 /* Assets.xcassets */,
 				BF81DA302C6FB60A00F4AD59 /* Preview Content */,
 			);
@@ -278,6 +281,7 @@
 				BFA775B42C76A42200C063AF /* StacksBootcamp.swift in Sources */,
 				BF3076702C80AA6C00D87658 /* PopoverBootcamp.swift in Sources */,
 				BF3076782C8381D100D87658 /* ActionSheetBootcamp.swift in Sources */,
+				BFF1DA782C873BEA003A59D1 /* ColorPickerBootcamp.swift in Sources */,
 				BF3076622C7CDD5300D87658 /* BindingBootcamp.swift in Sources */,
 				BFA775B82C76ABFA00C063AF /* SpacerBootcamp.swift in Sources */,
 				BF3076682C7E25F700D87658 /* AnimationBootcamp.swift in Sources */,
