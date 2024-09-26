@@ -31,6 +31,12 @@ struct FocusStateBootcamp: View {
                 .background(Color.gray.brightness(0.3))
                 .cornerRadius(10)
                 .padding()
+                .submitLabel(!username.isEmpty ? .next : .return)
+                .onSubmit {
+                    if password.isEmpty {
+                        fieldInFocus = .password
+                    }
+                }
             
             SecureField("Password", text: $password)
                 .focused($fieldInFocus, equals: .password)
@@ -40,11 +46,7 @@ struct FocusStateBootcamp: View {
                 .background(Color.gray.brightness(0.3))
                 .cornerRadius(10)
                 .padding()
-                .onSubmit {
-                    if password.isEmpty {
-                        fieldInFocus = .password
-                    }
-                }
+                
             
             Button("Sign In") {
                 let usernameIsValid = !username.isEmpty
