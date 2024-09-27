@@ -35,9 +35,11 @@ struct CustomNavigationSplitView: View {
                     case .vegetables:
                         EmptyView()
                     case .fruits:
-                        ForEach(Fruitss.allCases, id: \.rawValue) { fruit in
-                            Button(fruit.rawValue.capitalized) {
-                                selectedFruit = fruit
+                        List { 
+                            ForEach(Fruitss.allCases, id: \.rawValue) { fruit in
+                                Button(fruit.rawValue.capitalized) {
+                                    selectedFruit = fruit
+                                }
                             }
                         }
                     case .meats:
